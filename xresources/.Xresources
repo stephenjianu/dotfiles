@@ -1,0 +1,80 @@
+! URxvt*.background: black
+! URxvt*.foreground: white
+! URxvt*.transparent: true
+! URxvt*.shading: 25
+!XTerm*font: -misc-fixed-bold-r-normal-*-17-*-*-*-*-*-iso8859-*
+XTerm*renderFont: true
+XTerm*faceName: Misc Fixed:style=Bold
+XTerm*faceSize: 11
+!URxvt.keysym.C-Down:  resize-font:smaller
+!URxvt.keysym.C-Up:    resize-font:bigger
+!URxvt*.perl-ext-common: default,matcher,resize-font
+!URxvt*.url-launcher: /usr/bin/firefox
+!URxvt*.matcher.button: 1
+!URxvt*.scrollBar: false
+!URxvt.secondaryWheel: 1
+!URxvt.secondaryScreen: 1
+!URxvt.secondaryScroll: 0
+
+! Comet64-inspired color scheme by Stephen Jianu
+! https://store.steampowered.com/app/1397290/Comet_64/
+!
+! Heavily inspired/influenced by the Solarized theme by Ethan Schoonover
+! https://github.com/altercation/solarized
+
+#define C64_base03 #1f292b
+#define C64_base02 #2a3436
+#define C64_base01 #636e71
+#define C64_base00 #6f7b7d
+#define C64_base0 #a99b81
+#define C64_base1 #b7a88e
+#define C64_base2 #fff3d7
+#define C64_base3 #ffffe5
+
+#define C64_yellow #676744
+#define C64_orange #a98181
+#define C64_red #674444
+#define C64_green #81a984
+#define C64_blue #8186a9
+#define C64_cyan #81a9a8
+#define C64_violet #a981a1
+#define C64_magenta #67445f
+
+*.background: C64_base03
+*.foreground: C64_base0
+*.fadeColor: C64_base03
+*.cursorColor: C64_base1
+*.pointerColorBackground: C64_base01
+*.pointerColorForeground: C64_base1
+
+! black dark/light
+*.color0: C64_base02
+*.color8: C64_base03
+
+! red dark/light
+*.color1: C64_red
+*.color9: C64_orange
+
+! green dark/light
+*.color2: C64_green
+*.color10: C64_base01
+
+! yellow dark/light
+*.color3: C64_yellow
+*.color11: C64_base00
+
+! blue dark/light
+*.color4: C64_blue
+*.color12: C64_base0
+
+! magenta dark/light
+*.color5: C64_magenta
+*.color13: C64_violet
+
+! cyan dark/light
+*.color6: C64_cyan
+*.color14: C64_base1
+
+! white dark/light
+*.color7: C64_base2
+*.color15: C64_base3
