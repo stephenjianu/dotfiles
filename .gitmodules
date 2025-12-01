@@ -1,0 +1,3 @@
+[submodule "alacritty/.config/alacritty/themes/comet64"]
+	path = alacritty/.config/alacritty/themes/comet64
+	url = https://github.com/stephenjianu/comet64

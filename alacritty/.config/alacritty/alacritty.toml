@@ -31,7 +31,4 @@ key = "C"
 mods = "Control|Alt"
 
 [general]
-import = ["/home/stephen/git/stephen/comet64/alacritty/comet64.toml"]
-
-[terminal.shell]
-program = "tmux"
+import = ["~/.config/alacritty/themes/comet64/alacritty/comet64.toml"]
